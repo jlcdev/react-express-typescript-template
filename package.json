@@ -1,0 +1,14 @@
+{
+  "name": "monorepo-react-express-template",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"pnpm --stream -r start",
+    "dev": "pnpm --parallel --stream -r run dev",
+    "build": "pnpm --stream -r run build"
+  },
+  "keywords": [],
+  "author": "jlcdev",
+  "private": true
+}
